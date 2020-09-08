@@ -14,4 +14,11 @@ class PagesController extends AbstractController
     {
         return $this->render('pages/home.html.twig');
     }
+    /**
+     * @Route("/about-us")
+     */
+    public function about()
+    {
+        return $this->render('pages/about.html.twig');
+    }
 }

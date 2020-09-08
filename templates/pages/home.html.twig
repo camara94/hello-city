@@ -1,8 +1,6 @@
 {% extends "base.html.twig" %} 
+{% block title %} Hello City! {% endblock %}
 {% block body %}
     <h1>Hello from Quebec</h1>
     <p> it is {{'now' | date('h: i A', 'Africa/Tunis')}} </p>
-    <footer>
-        <p>&copy; Copyright {{'now'|date('Y')}} &middot; <a href="#">About Us</a></p>
-    </footer>
 {% endblock %}
